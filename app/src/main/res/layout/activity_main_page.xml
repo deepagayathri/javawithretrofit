@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutMain"
+        tools:context=".view.View.MainPage">
+
+    <TextView
+            android:id="@+id/Tv_Recy_Head"
+            android:text="@string/main"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textSize="12sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
